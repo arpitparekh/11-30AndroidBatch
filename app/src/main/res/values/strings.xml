@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">11_30 Android Batch</string>
+    <string name="demo">This is String Context</string>
+</resources>
