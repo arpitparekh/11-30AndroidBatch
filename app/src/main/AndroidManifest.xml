@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.11_30AndroidBatch">
         <activity
-            android:name=".toast_snackBar.ToastSnackActivity"
-            android:exported="true" >
-
+            android:name=".switch_activity.TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".switch_activity.OneActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,10 +23,13 @@
 
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".toast_snackBar.ToastSnackActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

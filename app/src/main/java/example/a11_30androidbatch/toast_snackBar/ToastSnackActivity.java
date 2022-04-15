@@ -34,7 +34,7 @@ public class ToastSnackActivity extends AppCompatActivity {
 
                 // context ? // context is a my activity's global information
 
-                Toast.makeText(ToastSnackActivity.this,"This is Toast",Toast.LENGTH_LONG).show();
+                Toast.makeText(ToastSnackActivity.this,"This is Toast",Toast.LENGTH_SHORT).show();
 
             }
         });
