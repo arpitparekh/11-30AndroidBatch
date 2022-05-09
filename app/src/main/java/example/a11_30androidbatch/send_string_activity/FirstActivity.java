@@ -33,7 +33,7 @@ public class FirstActivity extends AppCompatActivity {
                 i.putExtra("string",str);
                 startActivity(i);
 
-//                finish(); // destroy the activity
+//                finish(); // destroy the activity // can not come back
 
             }
         });
