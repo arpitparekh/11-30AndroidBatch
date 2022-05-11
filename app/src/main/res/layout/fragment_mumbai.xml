@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".send_string_fragment.MumbaiFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtSomething"
+        android:layout_centerInParent="true"
+        android:hint="Enter Something"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSendFragment"
+        android:layout_below="@id/edtSomething"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
